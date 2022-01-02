@@ -8,16 +8,16 @@ body {
   justify-content: center;
   height: 100vh;
 }
-@media screen and (orientation: landscape) {
+@media screen and (orientation: portrait) {
   body {
     display: flex;
+    justify-content: column;
   }
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (orientation: landscape) {
   .container {
     display: flex;
-    justify-content: column;
   }
 }
 

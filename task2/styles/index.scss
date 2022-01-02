@@ -8,14 +8,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  @include landscape {
-    display: flex;
-  }
-}
-.container {
   @include portrait {
     display: flex;
     justify-content: column;
+  }
+}
+.container {
+  @include landscape {
+    display: flex;
   }
 }
 .square {
