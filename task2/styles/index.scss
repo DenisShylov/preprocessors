@@ -11,18 +11,16 @@ body {
   @include portrait {
     display: flex;
     justify-content: column;
+    margin-top: 16px;
   }
 }
-.container {
-  @include landscape {
-    display: flex;
-  }
-}
+
 .square {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 16px;
+  margin-left: 16px;
+  margin-top: 16px;
   @include for-medium-up {
     background-color: #8a2be2;
   }
@@ -31,5 +29,10 @@ body {
   }
   @include for-large1-up {
     background-color: #c47;
+  }
+}
+.container {
+  @include landscape {
+    display: flex;
   }
 }

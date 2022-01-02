@@ -12,12 +12,7 @@ body {
   body {
     display: flex;
     justify-content: column;
-  }
-}
-
-@media screen and (orientation: landscape) {
-  .container {
-    display: flex;
+    margin-top: 16px;
   }
 }
 
@@ -25,7 +20,8 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 16px;
+  margin-left: 16px;
+  margin-top: 16px;
 }
 @media screen and (min-width: 600px) {
   .square {
@@ -40,6 +36,12 @@ body {
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .container {
+    display: flex;
   }
 }
 
