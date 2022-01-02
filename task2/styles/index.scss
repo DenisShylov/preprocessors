@@ -15,6 +15,7 @@ body {
   height: 100px;
   background-color: #ff7f50;
   margin: 8px;
+
   @include for-medium-up {
     background-color: #8a2be2;
   }
@@ -28,6 +29,7 @@ body {
   @include portrait {
     display: flex;
     flex-direction: column;
+    margin: 16px;
   }
 }
 .container {
