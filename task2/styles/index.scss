@@ -8,10 +8,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  @include portrait {
-    display: flex;
-    justify-content: column;
-  }
 }
 
 .square {
@@ -19,8 +15,6 @@ body {
   height: 100px;
   background-color: #ff7f50;
   margin: 8px;
-  margin-bottom: 16px;
-
   @include for-medium-up {
     background-color: #8a2be2;
   }
@@ -29,6 +23,11 @@ body {
   }
   @include for-large1-up {
     background-color: #c47;
+  }
+
+  @include portrait {
+    display: flex;
+    flex-direction: column;
   }
 }
 .container {

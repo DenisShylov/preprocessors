@@ -8,19 +8,12 @@ body {
   justify-content: center;
   height: 100vh;
 }
-@media screen and (orientation: portrait) {
-  body {
-    display: flex;
-    justify-content: column;
-  }
-}
 
 .square {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
   margin: 8px;
-  margin-bottom: 16px;
 }
 @media screen and (min-width: 600px) {
   .square {
@@ -35,6 +28,12 @@ body {
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
+  }
+}
+@media screen and (orientation: portrait) {
+  .square {
+    display: flex;
+    flex-direction: column;
   }
 }
 
