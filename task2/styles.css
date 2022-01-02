@@ -12,7 +12,6 @@ body {
   body {
     display: flex;
     justify-content: column;
-    margin-top: 16px;
   }
 }
 
@@ -20,8 +19,8 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin-left: 16px;
-  margin-top: 16px;
+  margin: 8px;
+  margin-bottom: 16px;
 }
 @media screen and (min-width: 600px) {
   .square {
